@@ -62,3 +62,11 @@
             </view>
         </view>
         <!-- 男女卡片区 end -->
+
+
+        <!-- 通知区域 -->
+        <view class="noticeBox">
+            <image src="/imgs/notice.png" mode="" />
+            <view class="noticeContent">关于系统上线运行的时间</view>
+        </view>
+        <!-- 通知区域 end -->
