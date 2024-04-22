@@ -34,8 +34,6 @@
         <view class="menu1">综合信息</view>
         <view class="menu1">学术动态</view>
     </view>
-
-
     <!-- 通知公告列表 -->
     <view class="announcementList">
         <view class="announcementList1">
