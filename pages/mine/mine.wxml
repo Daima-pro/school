@@ -41,7 +41,6 @@
         <!-- 推荐应用 -->
         <view class="tuijianApp">推荐应用</view>
 
-
         <!-- 推荐列表详情 -->
         <view class="mesDetailBox">
             <view class="mesDetail">
@@ -109,10 +108,8 @@
             </view>
         </view>
 
-
         <!-- 我的搜藏 -->
         <view class="tuijianApp">我的信息</view>
-
 
         <!-- 应用列表-我的信息 -->
         <view class="appBox">
