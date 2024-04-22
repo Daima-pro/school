@@ -15,9 +15,7 @@
             <view class="bumen">信息化管理中心</view>
             <image src="/imgs/avatar.jpg" mode="" />
         </view>
-
     </view>
-    <!-- 头部状态栏 end -->
 
     <view class="box">
         <!-- 男生女生卡片 -->
@@ -39,11 +37,10 @@
                 </view>
             </view>
         </view>
-        <!-- 男生女生卡片 end -->
 
         <!-- 推荐应用 -->
         <view class="tuijianApp">推荐应用</view>
-        <!-- 推荐应用 end -->
+
 
         <!-- 推荐列表详情 -->
         <view class="mesDetailBox">
@@ -72,11 +69,9 @@
                 <view class="time">昨天</view>
             </view>
         </view>
-        <!-- 消息列表详情 end -->
 
         <!-- 我的搜藏 -->
         <view class="tuijianApp">我的收藏</view>
-        <!-- 我的搜藏 end -->
 
         <!-- 应用列表-我的收藏 -->
         <view class="appBox">
@@ -113,11 +108,11 @@
                 <view style="font-size: 11px;font-weight: 600;">网上审批</view>
             </view>
         </view>
-        <!-- 应用列表-我的收藏 end -->
+
 
         <!-- 我的搜藏 -->
         <view class="tuijianApp">我的信息</view>
-        <!-- 我的搜藏 end -->
+
 
         <!-- 应用列表-我的信息 -->
         <view class="appBox">
@@ -154,8 +149,5 @@
                 <view style="font-size: 11px;font-weight: 600;">学生信息</view>
             </view>
         </view>
-        <!-- 应用列表-我的信息 end -->
-
     </view>
-
 </scroll-view>
