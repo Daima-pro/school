@@ -1,5 +1,4 @@
 <!--pages/login/login.wxml-->
-
 <head></head>
 <view class="box">
     <!-- 顶部 -->
@@ -8,10 +7,8 @@
         <view class="topRight" bindtap='goOneClickLogin'>验证码登录</view>
     </view>
 
-
     <!-- 账号密码登录 -->
     <view class="loginTitle">账号密码登录</view>
-
 
     <!-- 输入框 -->
     <view class="loginBox">
@@ -19,14 +16,11 @@
         <input class="password" type="password" name="userName" placeholder="请输入密码" placeholder-class="placeholderColor" bindinput='searchPassWord' />
     </view>
 
-
     <!-- 账号密码登录提示 -->
     <view class="question">登录遇到问题？</view>
 
-
     <!-- 点击登录 -->
     <view class="loginBtn" bindtap='go'>登录</view>
-
 
     <!-- 底部其他登录方式 -->
     <view class="buttomLoginBox">
