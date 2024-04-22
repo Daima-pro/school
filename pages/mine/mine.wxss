@@ -263,7 +263,6 @@
     height: 50px;
     text-align: center;
 }
-
 .appBox2List image{
     width: 25px;
     height: 25px;
