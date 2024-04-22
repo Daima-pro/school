@@ -1,0 +1,27 @@
+/* 头部图片 */
+.box {
+  width: 350px;
+  height: 1030px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.top-banner {
+  width: 350px;
+  height: 140px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.bannerImage {
+  position: absolute;
+}
+
+.banner-content {
+  margin-left: 15px;
+  width: 160px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 20px;
+}
