@@ -94,7 +94,7 @@
                 </view>
             </view>
         </view>
-        <!-- 推荐应用列表 end -->
+        
 
         <!-- 导航栏 -->
         <view class="menu">
@@ -106,7 +106,7 @@
         <view class="endNewText">
             最新上线
         </view>
-        <!-- 导航栏 end -->
+       
 
         <!-- 应用列表 -->
         <view class="appBox">
@@ -143,7 +143,7 @@
                 <view style="font-size: 11px;font-weight: 600;">网上审批</view>
             </view>
         </view>
-        <!-- 应用列表 end -->
+        
 
         <!-- 电子教务 -->
         <view class="dianzijiaowu">
@@ -167,7 +167,7 @@
                 <view style="font-size: 11px;font-weight: 600;">数据流量</view>
             </view>
         </view>
-        <!-- 电子教务 end -->
+       
 
     </view>
 </scroll-view>
