@@ -128,4 +128,5 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
     color: rgb(121, 121, 121);
     font-size: 12px;
     float: left;
+    
 }
