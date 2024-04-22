@@ -120,6 +120,7 @@
     margin-top: 10px;
     color: rgb(134, 134, 130);
 }
+
 .time{
     width: 20px;
     font-size: 10px;
