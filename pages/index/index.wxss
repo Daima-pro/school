@@ -327,6 +327,7 @@
     background: linear-gradient(0deg, #D2E6EE, #24819C);
 }
 
+
 #announcementList1ImageBox3{
     background: linear-gradient(0deg, #4FFBDF, #008B74);
 }
