@@ -14,7 +14,7 @@
                 <view class="go">去了解</view>
             </view>
         </view>
-        <!-- banner end -->
+
 
         <!-- banner下列表 -->
         <view class="types">
@@ -39,7 +39,7 @@
                 <span> 全部</span>
             </view>
         </view>
-        <!-- banner下列表 end-->
+
 
         <!-- 男女卡片区 -->
         <view class="twoCardBox">
@@ -60,14 +60,14 @@
                 </view>
             </view>
         </view>
-        <!-- 男女卡片区 end -->
+
 
         <!-- 通知区域 -->
         <view class="noticeBox">
             <image src="/imgs/notice.png" mode="" />
             <view class="noticeContent">关于系统上线运行的时间</view>
         </view>
-        <!-- 通知区域 end -->
+
 
         <!-- 指南区域 -->
         <view class="zhinanBox">
@@ -81,12 +81,12 @@
                 <view class="zhinanGo">去了解</view>
             </view>
         </view>
-        <!-- 指南区域 end -->
+
 
         <!-- 推荐应用 -->
         <view style="font-size: 18px;font-weight: 800;margin-top: 20px;">推荐应用</view>
         <view style="margin-top: 5px;font-size: 10px;">根据您最近浏览和办理应用为您推荐</view>
-        <!-- 推荐应用 end -->
+
 
         <!-- 推荐应用列表 -->
         <view class="recommendation">
@@ -139,7 +139,7 @@
                 </view>
             </view>
         </view>
-        <!-- 推荐应用列表 end -->
+
 
         <!-- 通知公告 -->
         <view class="announcementBox">
@@ -185,7 +185,7 @@
                 </view>
             </view>
         </view>
-        <!-- 通知公告 end-->
+
 
     </view>
 </scroll-view>
