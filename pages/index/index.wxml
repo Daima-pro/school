@@ -70,3 +70,17 @@
             <view class="noticeContent">关于系统上线运行的时间</view>
         </view>
         <!-- 通知区域 end -->
+
+          <!-- 指南区域 -->
+          <view class="zhinanBox">
+            <image src="/imgs/newfeel.png" mode="" />
+            <view class="zhinanContent">
+                <view class="zhinanTitle">办事指南新体验</view>
+                <view class="zhinanText">
+                    <text>新增办事指南和消息栏目
+                        办事更便捷</text>
+                </view>
+                <view class="zhinanGo">去了解</view>
+            </view>
+        </view>
+        <!-- 指南区域 end -->
