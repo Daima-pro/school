@@ -1,0 +1,84 @@
+<!--pages/message/message.wxml-->
+<head></head>
+<scroll-view class="scrollarea" scroll-y type="list">
+
+    <!-- 头部搜索框 -->
+    <view class="headBox">
+        <view class="headBoxTitle">消息</view>
+        <view class="searchBox">
+            <image src="/imgs/search.png" mode="" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="false" />
+        </view>
+        <view class="headBoxRight">
+            <image src="/imgs/scode.png" mode="" />
+            <image src="/imgs/m.png" mode="" />
+        </view>
+    </view>
+    <!-- 头部搜索框 end -->
+
+    <view class="box">
+        <!-- 消息列表 -->
+    <view class="mesListBox">
+        <view class="mesList">
+            <image src="/imgs/daiban.png" mode=""/>
+            <view class="mesListText">待办</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/daiyue.png" mode=""/>
+            <view class="mesListText">待阅</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/yiban.png" mode=""/>
+            <view class="mesListText">已办</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/yiyue.png" mode=""/>
+            <view class="mesListText">已阅</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/xitong.png" mode=""/>
+            <view class="mesListText">系统</view>
+        </view>
+    </view>
+    <!-- 消息列表 end -->
+
+    <!-- 消息列表详情 -->
+    <view class="mesDetailBox">
+        <view class="mesDetail">
+            <image src="/imgs/shenqing.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">教职工请假申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/buke.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">补课申请</view>
+                <view class="title2">任课教师：系统管理员</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/yuming.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">域名申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/chuguo.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">出国旅游申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+    </view>
+    <!-- 消息列表详情 end -->
+
+    </view>
+
+</scroll-view>
