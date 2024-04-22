@@ -61,13 +61,11 @@
             </view>
         </view>
 
-
         <!-- 通知区域 -->
         <view class="noticeBox">
             <image src="/imgs/notice.png" mode="" />
             <view class="noticeContent">关于系统上线运行的时间</view>
         </view>
-
 
         <!-- 指南区域 -->
         <view class="zhinanBox">
@@ -82,11 +80,9 @@
             </view>
         </view>
 
-
         <!-- 推荐应用 -->
         <view style="font-size: 18px;font-weight: 800;margin-top: 20px;">推荐应用</view>
         <view style="margin-top: 5px;font-size: 10px;">根据您最近浏览和办理应用为您推荐</view>
-
 
         <!-- 推荐应用列表 -->
         <view class="recommendation">
@@ -140,7 +136,6 @@
             </view>
         </view>
 
-
         <!-- 通知公告 -->
         <view class="announcementBox">
             <view class="menu">
@@ -185,7 +180,5 @@
                 </view>
             </view>
         </view>
-
-
     </view>
 </scroll-view>
