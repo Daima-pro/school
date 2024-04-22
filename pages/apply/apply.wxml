@@ -1,0 +1,174 @@
+<!-- 自定义状态栏 -->
+
+<head></head>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <!-- 头部搜索栏 -->
+    <view class="headBox">
+        <view class="headBoxTitle">应用</view>
+        <view class="searchBox">
+            <image src="/imgs/search.png" mode="" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="false" />
+        </view>
+        <view class="headBoxRight">
+            <image src="/imgs/scode.png" mode="" />
+            <image src="/imgs/m.png" mode="" />
+        </view>
+    </view>
+    <!-- 头部搜索栏 end -->
+
+    <view class="box">
+        <!-- 男生女生卡片 -->
+        <view class="twoCardBox">
+            <view class="card1">
+                <image id="cardImage1" src="/imgs/appgirl.png" mode="" style="width: 60px;height: 70px;" />
+                <view class="cardContent1">
+                    <text style="font-weight: 600;font-size: 14px;">待办事项
+                    </text>
+                    <text style="font-size: 10px;">我的待办事项</text>
+                </view>
+            </view>
+            <view class="card2">
+                <image id="cardImage2" src="/imgs/appboy.png" mode="" style="width: 80px;height: 70px;" />
+                <view class="cardContent2">
+                    <text style="font-weight: 600;font-size: 14px;">办事指南
+                    </text>
+                    <text style="font-size: 10px;">办事指南汇总</text>
+                </view>
+            </view>
+        </view>
+        <!-- 男生女生卡片 end -->
+
+        <!--  推荐应用  -->
+        <view style="font-size: 18px;font-weight: 800;margin-top: 20px;">推荐应用</view>
+        <view style="margin-top: 5px;font-size: 10px;">根据您最近浏览和办理应用为您推荐</view>
+        <!-- 推荐应用 end -->
+
+
+        <!-- 推荐应用列表 -->
+        <view class="recommendation">
+            <view class="recommendation1">
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">200+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation2">
+                <view class="imageBox">
+                    <image src="/imgs/book.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">图书借鉴</view>
+                    <view style="font-size: 10px;text-align: center;">查看图书借鉴记录</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">300+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation3">
+                <view class="imageBox">
+                    <image src="/imgs/serch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">网上查询</view>
+                    <view style="font-size: 10px;text-align: center;">自助网上缴费</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">1500+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+        </view>
+        <!-- 推荐应用列表 end -->
+
+        <!-- 导航栏 -->
+        <view class="menu">
+            <view id="menuFirst">最新上线</view>
+            <view class="menu1">电子商务</view>
+            <view class="menu1">教学服务</view>
+            <view class="menu1">科研服务</view>
+        </view>
+        <view class="endNewText">
+            最新上线
+        </view>
+        <!-- 导航栏 end -->
+
+        <!-- 应用列表 -->
+        <view class="appBox">
+            <view class="appBoxList">
+                <image src="/imgs/schoolList.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学校概况</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/map.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学校地图</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xiaofei.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">我的消费</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/email.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">电子邮件</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/tushu.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">图书借阅</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/jiangbei.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">获奖成果</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/hongqi.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">我的党建</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/shenpi.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">网上审批</view>
+            </view>
+        </view>
+        <!-- 应用列表 end -->
+
+        <!-- 电子教务 -->
+        <view class="dianzijiaowu">
+            电子教务
+        </view>
+        <view class="appBox2">
+            <view class="appBox2List">
+                <image src="/imgs/jiaoxuelou.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">教学大楼</view>
+            </view>
+            <view class="appBox2List">
+                <image src="/imgs/fanshu.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">网上订书</view>
+            </view>
+            <view class="appBox2List">
+                <image src="/imgs/xinhaota.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">信号强弱</view>
+            </view>
+            <view class="appBox2List">
+                <image src="/imgs/shuju.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">数据流量</view>
+            </view>
+        </view>
+        <!-- 电子教务 end -->
+
+    </view>
+</scroll-view>
