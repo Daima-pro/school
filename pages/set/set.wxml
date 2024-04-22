@@ -9,7 +9,6 @@
         <view class="setText">设置</view>
     </view>
 
-
     <!-- 设置列表 -->
     <view class="setList">
         <view class="list">
@@ -33,7 +32,6 @@
             <view class="setTitle">关于我们</view>
         </view>
     </view>
-
 
     <!-- 退出登录 -->
     <view class="tuichuBox">
