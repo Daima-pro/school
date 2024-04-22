@@ -8,7 +8,7 @@
         <image src="/imgs/fanhui.png" mode=""  bindtap='goMine' />
         <view class="setText">设置</view>
     </view>
-    <!-- 页面头部 end -->
+
 
     <!-- 设置列表 -->
     <view class="setList">
@@ -33,13 +33,13 @@
             <view class="setTitle">关于我们</view>
         </view>
     </view>
-    <!-- 设置列表 end -->
+
 
     <!-- 退出登录 -->
     <view class="tuichuBox">
         <image src="/imgs/tuichu.png" mode="" bindtap='goLogin' />
         <view class="tuichu" bindtap='goLogin'>退出登录</view>
     </view>
-    <!-- 退出登录 end -->
+
 
 </view>
