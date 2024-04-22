@@ -14,7 +14,7 @@
             <image src="/imgs/m.png" mode="" />
         </view>
     </view>
-    <!-- 头部搜索框 end -->
+
 
     <view class="box">
         <!-- 消息列表 -->
@@ -40,7 +40,7 @@
             <view class="mesListText">系统</view>
         </view>
     </view>
-    <!-- 消息列表 end -->
+
 
     <!-- 消息列表详情 -->
     <view class="mesDetailBox">
@@ -77,8 +77,5 @@
             <view class="time">昨天</view>
         </view>
     </view>
-    <!-- 消息列表详情 end -->
-
-    </view>
-
+   </view>
 </scroll-view>
