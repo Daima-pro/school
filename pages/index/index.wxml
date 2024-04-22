@@ -15,7 +15,7 @@
             </view>
         </view>
         <!-- banner end -->
-        
+
          <!-- banner下列表 -->
          <view class="types">
             <view id="typeList">
@@ -40,3 +40,25 @@
             </view>
         </view>
         <!-- banner下列表 end-->
+
+        
+        <!-- 男女卡片区 -->
+        <view class="twoCardBox">
+            <view class="card1">
+                <image id="cardImage1" src="/imgs/man.png" mode="" style="width: 110px;height: 80px;" />
+                <view class="cardContent1">
+                    <text style="font-weight: 600;font-size: 14px;">待办事项
+                    </text>
+                    <text style="font-size: 10px;">我的待办事项</text>
+                </view>
+            </view>
+            <view class="card2">
+                <image id="cardImage2" src="/imgs/woman.png" mode="" style="width: 110px;height: 80px;" />
+                <view class="cardContent2">
+                    <text style="font-weight: 600;font-size: 14px;">办事指南
+                    </text>
+                    <text style="font-size: 10px;">办事指南汇总</text>
+                </view>
+            </view>
+        </view>
+        <!-- 男女卡片区 end -->
