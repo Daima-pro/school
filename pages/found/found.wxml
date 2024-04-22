@@ -14,7 +14,7 @@
         <image src="/imgs/m.png" mode="" />
     </view>
 </view>
-<!-- 头部搜索框 end -->
+
 
 <view class="box">
     <!-- banner -->
@@ -25,7 +25,7 @@
             <view class="bannerText">校内各院系各部门重要新闻汇报随时随地查看</view>
         </view>
     </view>
-    <!-- banner end -->
+
 
     <!-- 导航栏 -->
     <view class="menu">
@@ -34,7 +34,7 @@
         <view class="menu1">综合信息</view>
         <view class="menu1">学术动态</view>
     </view>
-    <!-- 导航栏 end -->
+
 
     <!-- 通知公告列表 -->
     <view class="announcementList">
@@ -52,7 +52,7 @@
         <view class="announcementList1">
             <view class="announcementListContent">
                 <view class="announcementListContent1">
-                    关于开展2023新生入学教育系列培训课程的指导意见
+                    关于开展2021新生入学教育系列培训课程的指导意见
                 </view>
                 <view class="announcementListContent2">信息化管理中心</view>
             </view>
@@ -72,6 +72,4 @@
             </view>
         </view>
     </view>
-    <!-- 通知公告列表 end -->
-
 </view>
