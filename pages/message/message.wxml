@@ -15,7 +15,6 @@
         </view>
     </view>
 
-
     <view class="box">
         <!-- 消息列表 -->
     <view class="mesListBox">
@@ -40,7 +39,6 @@
             <view class="mesListText">系统</view>
         </view>
     </view>
-
 
     <!-- 消息列表详情 -->
     <view class="mesDetailBox">
