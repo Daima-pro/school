@@ -102,7 +102,7 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked {
     background: rgba(37, 150, 240, 1);
 }
 
-/* 选中后的勾子样式 */
+/* 选中后的样式 */
 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
     width: 30rpx;
     height: 30rpx;
