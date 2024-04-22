@@ -93,6 +93,7 @@
     height: 35px;
     margin-left: 7.5px;
 }
+
 .otherLoginText{
     font-size: 11px;
     text-align: center;
